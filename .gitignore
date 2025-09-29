@@ -1,0 +1,10 @@
+checkpoints
+out_chunks
+out_chunks_val
+tokenized_wikitext103
+tokenized_wikitext103-out_chunks_val
+edu_fineweb10B
+edu_fineweb10B_val
+__pycache__
+wandb
+
