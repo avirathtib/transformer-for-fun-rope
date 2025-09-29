@@ -150,10 +150,22 @@ A PyTorch implementation of a GPT-style transformer model built from scratch, fe
 - **HellaSwag**: Tests commonsense reasoning and completion ability
 - **Both metrics**: Provide comprehensive model assessment
 
+## Training Results
+
+### Training Loss
+![Training Loss](https://github.com/user-attachments/assets/36fcdb77-3a46-4003-b4b9-575593587768)
+
+The training loss curve shows steady convergence over ~35,000 training steps, demonstrating effective learning on the FineWeb-Edu dataset.
+
+### Validation Perplexity
+![Validation Perplexity](https://github.com/user-attachments/assets/aea1d440-ed07-4e69-8918-c04cbdc57c7f)
+
+Validation perplexity decreases consistently throughout training, indicating good generalization without overfitting.
+
 ## Performance Characteristics
 
 **Training Speed:**
-- ~1,000-2,000 tokens/second on single GPU
+- ~120,000 tokens/second on single GPU
 - Memory efficient due to gradient checkpointing considerations
 - Scales with available compute
 
@@ -161,6 +173,7 @@ A PyTorch implementation of a GPT-style transformer model built from scratch, fe
 - Comparable to similarly-sized models on HellaSwag
 - Reasonable text generation quality
 - Good performance on educational content
+
 
 ## Usage
 
